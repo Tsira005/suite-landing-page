@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Epilogue";
+  background: #faf8f6;
+}
+.image-phone-tablet {
+  display: none;
+}
+.container {
+  padding: 24px 16px 0 16px;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 81px;
+  height: 32px;
+}
+.header-btn {
+  width: 182px;
+  height: 48px;
+  border: 1px solid #172339;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  color: #172339;
+  margin-bottom: 75px;
+}
+.after-header-line {
+  width: 45%;
+  position: absolute;
+  top: -7%;
+  left: 45%;
+}
+.after-header {
+  position: relative;
+}
+h1 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  letter-spacing: -0.527778px;
+  color: #172339;
+  margin-bottom: 32px;
+}
+.after-header-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.0888889px;
+  color: #49566d;
+  margin-bottom: 32px;
+}
+.after-header-btn {
+  width: 256px;
+  height: 61px;
+  background: #172339;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+  margin-bottom: 55px;
+}
+.images {
+  margin-bottom: 55px;
+}
+.numbers-p-01 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #172339;
+}
+.numbers-p-02 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #49566d;
+  margin-bottom: 32px;
+}
+.blue-div {
+  background: #172339;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 260px;
+  height: 750px;
+}
+.jeremy {
+  position: absolute;
+  top: -25%;
+  left: 15%;
+}
+.small-curved-line {
+  position: absolute;
+  top: 33%;
+  left: 35%;
+}
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.416667px;
+  color: #faf8f6;
+  margin-bottom: 40px;
+  padding-top: 350px;
+}
+
+.blue-div-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.09px;
+  color: #f3ede7;
+  padding: 0 16px 40px;
+}
+.name-p {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+  padding-bottom: 5px;
+}
+.cmo-p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+}
+footer {
+  background: #f3ede7;
+}
+.footer-logo {
+  width: 81px;
+  height: 32px;
+}
+.footer-p {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.0833333px;
+  color: #49566d;
+}
+.footer-container {
+  padding: 55px 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+}
+.social-logos {
+  display: flex;
+  justify-content: baseline;
+  gap: 28px;
+}
+.icon {
+  fill: #172339;
+}
+/* CSS for tablet devises */
+@media screen and (min-width: 768px) {
+  .parent-div {
+    padding: 52px 40px;
+  }
+  .image-phone-mobile {
+    display: none;
+  }
+  .header-btn {
+    margin-bottom: 180px;
+    width: 219px;
+    height: 56px;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 40px;
+  }
+  .after-header-p {
+    max-width: 350px;
+  }
+  .after-header-line {
+    width: 33%;
+    left: 33%;
+    top: -10%;
+  }
+  .after-header {
+    margin-bottom: 130px;
+  }
+  .image-phone-tablet {
+    display: block;
+    position: absolute;
+    width: 36%;
+    right: 5%;
+    top: 25%;
+    z-index: -999;
+  }
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+  }
+  .jeremy {
+    width: 40%;
+    left: 30%;
+    top: -30%;
+  }
+  .blue-div {
+    height: 700px;
+    background-image: url(./pattern-blur.svg);
+    background-repeat: no-repeat;
+    background-position: 45% -100%;
+    margin-bottom: -520px;
+    padding: 0 45px;
+  }
+  .small-curved-line {
+    top: 40%;
+    left: 45%;
+  }
+  h2 {
+    padding-top: 380px;
+  }
+  footer {
+    height: 640px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    padding: 70px 0;
+  }
+  .footer-div {
+    padding-top: 460px;
+  }
+}
+/* CSS for desctop devises */
+@media screen and (min-width: 768px) {
+  .parent-div {
+    padding: 62px 165px;
+  }
+  .middle-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .image-phone-tablet {
+    width: 20%;
+    left: 39%;
+    top: 30%;
+  }
+  .numbers {
+    flex-direction: column;
+    height: 400px;
+  }
+  .blue-div {
+    height: 550px;
+    background-image: url(./pattern-blur.svg);
+    background-repeat: no-repeat;
+    background-position: -5% 350%;
+  }
+  .jeremy {
+    width: 32.5%;
+    top: -6.5%;
+    left: 6%;
+  }
+  .blue-div-content {
+    position: absolute;
+    left: 55%;
+    top: -50%;
+    width: 350px;
+  }
+  h2,
+  .name-p,
+  .cmo-p {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .blue-div-p {
+    text-align: left;
+  }
+  .header-btn:hover {
+    background: #172339;
+    cursor: pointer;
+    color: #fff;
+  }
+  .after-header-btn:hover {
+    background: linear-gradient(
+      135deg,
+      #a060ff 0%,
+      #cb30e3 49.21%,
+      #ffa84e 100%
+    );
+    cursor: pointer;
+  }
+  .icon:hover {
+    cursor: pointer;
+    fill: #49566d;
+  }
+}
